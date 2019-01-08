@@ -1,8 +1,10 @@
 ## Sistema de Login e Senha
 
 from tkinter import *
+
 usuario = ['fabricio','Luis'] # usuarios que tem acesso ao sistema
 senha1 = ['1234','7890'] # senha dos usuarios
+
 def verifica():
     if lg.get() == usuario[0] and sh.get() == senha1[0]: # verifica primeiro usuario
         resultado['text'] = 'Bem vindo ao sistema'
@@ -22,7 +24,7 @@ def novo(): # Adiciona novos usuarios ( em desenvolvimento ainda )
 
 i = Tk()
 i.title('Login')
-i.geometry('300x250')
+i.geometry('300x300')
 
 # Descrição usuario
 login = Label(i,text='Usuário',fg='black')
@@ -33,8 +35,8 @@ lg = Entry(i)
 # Descrição senha
 senha = Label(i,text='Senha',fg='black')
 
-# Caixa de entrada senha
-sh = Entry(i)
+# Caixa de entrada senha ocultando senha com ****
+sh = Entry(i,show='*')
 
 # Botao para entrar sistema
 entra = Button(i,text='Acessar',fg='blue', command=verifica)
@@ -53,9 +55,10 @@ login.pack()
 lg.pack()
 senha.pack()
 sh.pack()
-entra.pack()
+entra.pack(side=LEFT)
+
+criar_novo.pack(side=RIGHT)
 resultado.pack()
-criar_novo.pack()
 cria_finaliza.pack()
 
 i.mainloop()
