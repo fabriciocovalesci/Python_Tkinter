@@ -3,9 +3,9 @@
   <h1 style="color:#1F89C6;padding:20px;">Python Tkinter</h1> 
 </div>
 
-* Exemplos de GUI Desenvolvido em python_3
+* Exemplos de GUI Desenvolvido em python3 :snake:
 
-* Tkinter é uma biblioteca padrão do python para desenvolvimento de interfaces graficas.
+* Tkinter é uma biblioteca do python para desenvolvimento de interfaces graficas.
 * São portáveis, podendo ser executada em sistemas Unix, Linux, Windows, MacOS/X.
 
 ### Login
