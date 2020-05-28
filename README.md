@@ -8,10 +8,10 @@
 * Tkinter é uma biblioteca padrão do python para desenvolvimento de interfaces graficas.
 * São portáveis, podendo ser executada em sistemas Unix, Linux, Windows, MacOS/X.
 
-<div align="center">
-    <h1 style="color:#1F89C6;padding:20px;">Login</h1> 
+### Login
+
 ![login](https://user-images.githubusercontent.com/40548641/83091659-08a57b00-a072-11ea-80f6-745c7e904a8c.png)
-</div>
+
 
 ## Links
 https://docs.python.org/3/library/tkinter.html
